@@ -1,0 +1,5 @@
+frmMain = 140, 131, 590, 682, , 0, 0, 0, 0, C
+mainModule = 150, 115, 597, 708, C
+comModule = 367, 184, 959, 792, 
+iniTool = 0, 0, 0, 0, C
+CReadWriteEasyReg = 129, 104, 576, 679, C

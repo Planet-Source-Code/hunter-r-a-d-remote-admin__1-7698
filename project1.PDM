@@ -1,0 +1,81 @@
+[Root]
+Most Recent Package=.r.a.d.(prep for dis)
+
+
+[Package|.r.a.d.(prep for dis)|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=c:\temp\rad
+
+[Package|.r.a.d.(prep for dis)|Configure DAO ISAMs]
+Applicable=No
+
+[Package|.r.a.d.(prep for dis)|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|.r.a.d.(prep for dis)|Files Found]
+
+[Package|.r.a.d.(prep for dis)|Files Released]
+
+[Package|.r.a.d.(prep for dis)|Missing Dependency Information]
+
+[Package|.r.a.d.(prep for dis)|Out-of-Date Dependency Information]
+
+[Package|.r.a.d.(prep for dis)|Files Added]
+
+[Package|.r.a.d.(prep for dis)|Files Removed]
+
+[Package|.r.a.d.(prep for dis)|Files In Project]
+C:\WINDOWS\Desktop\rad.exe=Yes
+C:\WINDOWS\SYSTEM\MSVBVM60.DLL=Yes
+C:\WINDOWS\SYSTEM\OLEAUT32.DLL=Yes
+C:\WINDOWS\SYSTEM\OLEPRO32.DLL=Yes
+C:\WINDOWS\SYSTEM\ASYCFILT.DLL=Yes
+C:\WINDOWS\SYSTEM\STDOLE2.TLB=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+C:\WINDOWS\SYSTEM\MSWINSCK.OCX=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=Yes
+C:\WINDOWS\SYSTEM\VB6STKIT.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=Yes
+
+[Package|.r.a.d.(prep for dis)|Configure Registry Files]
+Applicable=No
+
+[Package|.r.a.d.(prep for dis)|Configure Remote Servers]
+Applicable=No
+
+[Package|.r.a.d.(prep for dis)|Install Locations]
+C:\WINDOWS\Desktop\rad.exe=$(AppPath)
+C:\WINDOWS\SYSTEM\MSVBVM60.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\OLEAUT32.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\OLEPRO32.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\ASYCFILT.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\STDOLE2.TLB=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\MSWINSCK.OCX=$(WinSysPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\WINDOWS\SYSTEM\VB6STKIT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+
+[Package|.r.a.d.(prep for dis)|Configure Shared Files]
+Applicable=Yes
+C:\WINDOWS\Desktop\rad.exe=No
+
+[Package|.r.a.d.(prep for dis)|Distribution]
+Type=multi
+Size=1.44 MB
+Title=.r.a.d.
+
+[Package|.r.a.d.(prep for dis)|Package]
+PackageFolder=c:\temp\rad
+ProjectFolder=C:\My Documents\project\remote~1
+ServerSideCab=
+File1=c:\temp\rad\setup.exe
+File2=c:\temp\rad\Setup.Lst
+File3=c:\temp\rad\rad1.CAB
+File4=c:\temp\rad\rad2.CAB
+Handler1=PDWizard.FloppyDplySubWiz
+Handler2=PDWizard.FolderDplySubWiz
+Handler3=PDWizard.WebPostDplySubWiz
